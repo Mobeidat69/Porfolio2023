@@ -1,0 +1,54 @@
+/* Add your custom styles here */
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .section {
+    padding: 50px 0;
+    text-align: center;
+    color: #000;
+  }
+  
+  h1, h2 {
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    border: none;
+  }
+  
+  .navbar-nav > li > a {
+    color: #FFF;
+    font-weight: bold;
+    padding: 15px;
+  }
+  
+  .navbar-nav > li > a:hover,
+  .navbar-nav > li > a:focus {
+    background-color: #FFF;
+    color: #E74646;
+  }
+  
+  .navbar-brand {
+    padding: 15px;
+  }
+  
+  .navbar-brand > img {
+    vertical-align: middle;
+  }
+  
+  @media (min-width: 768px) {
+    .navbar-nav {
+      float: right;
+    }
+  }
+  
